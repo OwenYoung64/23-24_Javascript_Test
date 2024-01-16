@@ -10,30 +10,36 @@ function formCheck() {
   // Check name field
   if (name.value === '') {
     name.style.backgroundColor = "red";
-    // if the name field is empty, make it red
+    // if the field is empty, make it red
   } else {
-    // if the name field is filled, make it white
+    // if the field is filled, make it white
     name.style.backgroundColor = 'white';
   }
 
   // Check address field
   if (address.value === '') {
     address.style.backgroundColor = "red";
+    // if the field is empty, make it red
   } else {
+    // if the field is filled, make it white
     address.style.backgroundColor = 'white';
   }
 
   // Check phone field
   if (phone.value === '') {
     phone.style.backgroundColor = "red";
+    // if the field is empty, make it red
   } else {
+    // if the field is filled, make it white
     phone.style.backgroundColor = 'white';
   }
 
   // Check email field
   if (email.value === '') {
     email.style.backgroundColor = "red";
+    // if the field is empty, make it red
   } else {
+    // if the field is filled, make it white
     email.style.backgroundColor = 'white';
   }
 }
