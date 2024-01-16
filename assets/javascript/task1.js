@@ -5,7 +5,6 @@ function imagehover() {
   const button1 = document.getElementById("buttonTask1")
   button1.style.display = "block"
 }
-imageTask1.addEventListener(onmouseover)
 
 /* look for button click */
 function buttonclick() {
